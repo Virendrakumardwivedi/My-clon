@@ -1,0 +1,38 @@
+
+/* #formdiv{
+    width: 50%;
+    height: 400px;
+    border: solid 1px red;
+    margin-top: 40%;
+} */
+#paymentform{
+    width: 60%;
+    height: 550px;
+    border: 1px solid red;
+    padding-top: 15%;
+    padding-left: 45%;
+    padding-bottom: 5%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdAlauL2uOyxheZpV5Toj8Ylqltk1FBdQ7eA&usqp=CAU);
+}
+#name{
+    padding: 3% 3% 3% 3%;
+    /* border-radius: 4%; */
+    background-color: rgb(214, 229, 241);
+}
+#cartnum{
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(214, 229, 241);
+}
+#cvv{
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(214, 229, 241);
+}
+#submitpay{
+    padding: 2% 8% 2% 8%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: red;
+    border: none;
+    color: white;
+
+}

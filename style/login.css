@@ -1,0 +1,386 @@
+#navbar{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    position: fixed;
+    display: flex;
+    margin-left: -15px;
+    margin-top: -9px;
+    margin-top: -100px;
+  
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    z-index: 10;
+    background-color:white;
+}
+#navbar a{
+    text-decoration: none;
+}
+#sidbar{
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    margin: 5px 0px;
+    opacity: 60%;
+    text-decoration: none;
+
+}
+#sidbar:hover{
+    background-color: rgb(221, 218, 218);
+}
+#internIcon{
+    width: 70px;
+    height: 35px;
+    padding: 7px;
+    margin-left: 4px;
+}
+#cardicon{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 46%;
+    margin-right: 2%;
+    margin-top: 1px;
+    
+}
+#carticon1{
+    margin-left: 75%;
+    margin-right: 3%;
+}
+#cardicon:hover{
+    background-color: rgb(221, 218, 218);
+    border-radius: 50%;
+
+}
+#cartCount{
+    color: white;
+    background-color: #df1e2e;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: 5px;
+     
+}
+#signbutton{
+    color: white;
+    background-color: #df1e2e;
+    height: 20px;
+    font-size: 12px;
+    padding:  7px 10px 3px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+     Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0%;
+    
+
+}
+#signbutton:hover{
+    background-color: #85050f;
+}
+/* here */
+
+body{
+    background-image: url(https://assets.interntheory.com/creative/Web-Banner.jpg);
+}
+
+
+
+
+
+
+
+
+
+#main1{
+    height: 550px;
+    width: 500px;
+    margin: auto;
+    /* border: 1px solid red; */
+    background-color: rgb(255,255,255);
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-bottom: 50px;
+    }
+   #log{
+    text-align: center;
+    line-height: 15px;
+    font-size: 25px;
+   } 
+
+    #main1>div{
+        height: 42px;
+        width: 90%;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-top: 1%;
+    }
+    #background{
+        background-color: rgb(228,228,228);
+    }
+    #UmeshOR{
+        text-align: center;
+    }
+   
+    #headerreg {
+      letter-spacing: 0;
+      /* font-family: "Lora", serif; */
+      font-size: 40px;
+      line-height: 35px;
+      color: black;
+      margin-bottom: 20px;
+      padding: 15px 0 0 22px;
+    }
+    #input{
+      width: 90%;
+      margin: auto;
+    }
+    #input>div>input{
+      margin-left: 20px;
+      padding: 10px;
+      font-size: 15px;
+      width: 360px;
+      height: 20px;
+      border: 1px solid;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+    
+    #button{
+    width: 380px;
+     height: 35px;
+      margin-left: 20px;
+      margin-top: 15px;
+      background-color:white;
+      color:rgb(225,30,46);
+      font-size: 15px;  
+      border:1px solid rgb(225,30,46);
+      font-weight: bold;
+    
+    }
+    #dasdiv{
+        height: 52px;
+        width: 90%;
+        border: 1px dashed red;
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 5px;
+        background-color: rgb(252,239,241);
+        padding: 0px 0px 18px 10px;
+    }
+    #logo{
+        height: 42px;
+        width: 70%;
+        border: 1px solid black;
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 5px;
+        line-height: 5px;
+        padding: 0px 5px 0px 0px;
+        display: flex;
+        background-color: rgb(66,103,178);
+    }
+    #logo2{
+        height: 42px;
+        width: 70%;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 5px;
+        line-height: 5px;
+        padding: 0px 5px 0px 0px;
+        display: flex;
+        background-color: rgb(8,124,221);
+    }
+    #g-image>img{
+        border-radius: 50%;
+    }
+    #button:hover{
+        background:#ef8e96;
+        color: white;
+    }
+    #text1{
+        margin-left: 90px;
+        color: white;
+    }
+    #text2{
+        margin-left: 90px;
+        color: white;
+    }
+    #text{
+       margin-left: 20px;
+    }
+    .checkbox{
+       margin-top: 15px; 
+    }
+    *{
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(52, 123, 255);
+    }
+    #or{
+        text-align: center;
+    }
+    
+
+    
+
+/* styling for footer */
+#myfooter{
+    width: 92%;
+    height: 290px;
+    margin-left: -10px;
+    padding-left: 9%;
+    background-color: #446478;
+    margin-bottom: -10px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
+#myfooter p{
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 13PX;
+}
+
+#myfooter a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    
+}
+li{
+    list-style: none;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+.myhr{
+    height: 1px;
+    margin: 0;
+    border: none;
+    flex-shrink: 0;
+    background-color: #999;
+}
+#onelinetexts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    text-align: center;
+    margin-left: 9%;
+
+
+}
+#onelinetexts p{
+    font-size: 5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+#onelinetexts a{
+    text-decoration: none;
+}
+#seperaterline{
+    width: 80%;
+    margin: 0px 10%;
+    border-top: 1px solid rgb(180, 180, 180);
+    margin-top: -10px;
+}
+#copyrighttext{
+    text-align: center;
+    font-size: 5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: -12px;
+    border: 0px;
+}
+
+
+/* styling For Sidebar */
+
+#sidebar_container{
+    display: none;
+    
+}
+#overallpage{
+    height: 100%;
+    width: 100.1%;
+    margin-left: -10px;
+    position: fixed;
+    background-color: rgba(15, 3, 3, 0);
+    top: 0;
+    display: flex;
+    
+}
+#leftSidebar{
+    background-color: white;
+    height: 100%;
+    width: 18%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+#leftSidebar a{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: #212121;
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    justify-content: flex-start;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5em;
+    border-radius: 0;
+    vertical-align: middle;
+    text-transform: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.mysideicons{
+    width: 15px;
+    margin: 0px 20px 0px 0px;
+   
+}
+.Mysideoptions:hover{
+    background-color: rgb(216, 214, 214);
+
+
+}
+#optionforcloseside{
+    width: 84%;
+    height: 100%;
+   
+    background-color: rgba(15, 3, 3, 0);
+}
+
+

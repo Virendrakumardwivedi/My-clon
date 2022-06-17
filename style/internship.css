@@ -1,0 +1,133 @@
+#navsecondbox{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid red; */
+    position: fixed;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+#internoption{
+    display: flex;
+    padding-top: 40px;
+    /* border: 1px solid red; */
+    padding-left: 7%;
+    
+}
+#opitions{
+width: 200px;
+background-color: white;
+margin-right: 25px;
+color: #afb1b2;
+
+}
+/* #sear{
+    background-color: #f2f2f2;
+     background-color: red;
+     border: 1px solid;
+     border-radius: 8px;
+     padding-left: 25px;
+     padding-right:25px;
+    color: #e3e7ea;
+ } */
+
+#internsear{
+    background-color: #f2f2f2;
+     background-color: rgb(0, 21, 255);
+     border: 1px solid;
+     border-radius: 8px;
+     padding-left: 25px;
+     padding-right:25px;
+    color: #e3e7ea;
+}
+#internsear:hover{
+    background-color: rgb(12, 12, 120);
+}
+
+#internseconddiv{
+    width: 101%;
+    height: 1300px;
+    /* border: 1px solid black; */
+    background-color: #f8f8f8;
+    display: flex;
+}
+#internseconddiv1{
+    width: 250px;
+    height: 250px;
+    border: 1 px solid rgb(25, 10, 187);
+    background-color: bisque;
+    margin: 15% 0% 0% 10%;
+   
+}
+#internseconddiv1 img{
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+#internseconddiv2{
+    width: 60%;
+    height: 1000px;
+    border: 1 px solid rgb(6, 6, 6);
+    background-color:white;
+    margin: 15% 0% 0% 4%;
+    /* display: flex; */
+}
+
+#internseconddiv2 > div
+{
+    border: 2px dashed #e0e0e0 ;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+}
+.interlogos{
+    padding-top: 30%;
+}
+.company{
+    font-weight: bolder;
+    margin-bottom: -12px;
+    padding-top: 5%;
+    color: #3c487d;
+}
+.status{
+    margin-bottom: -12px;
+    color: #3c487d;
+}
+.work{
+    margin-bottom: -12px; 
+    color: #3c487d;
+}
+.mony{
+    margin-bottom: -5px; 
+    padding-bottom: 8%;
+    color: #3c487d;
+}
+.address{
+    margin-bottom: -12px; 
+    color: #3c487d;
+}
+.week4{
+    color: #3c487d; 
+    padding-top: 10%;
+}
+.shearimg{
+    height: 29px;
+    width: 29px;
+    margin-right: 5%;
+
+}
+#apply{
+    margin-top: 3%;
+    color: blue;
+    font-weight: bold;
+    padding: 4% 2% 4% 2%;
+    border: none;
+    background-color: white;
+}
+#apply:hover{
+    background: #d0d5ea;
+}
+
